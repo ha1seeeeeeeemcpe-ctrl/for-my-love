@@ -168,3 +168,10 @@ html, body {
 @media (prefers-reduced-motion: reduce) {
   .intro-card, .intro-emoji, #title, .heart-btn { animation: none; }
 }
+.intro-emoji img {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;      /* вся картинка видна; для обрезки по центру поставь cover */
+  border-radius: 16px;      /* для круглой картинки поставь 50% */
+  filter: drop-shadow(0 0 14px rgba(255, 79, 154, .5));
+}
