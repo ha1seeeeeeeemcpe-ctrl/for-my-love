@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>for my favourite ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&family=Yellowtail&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 3D-сцена -->
+  <canvas id="scene"></canvas>
+
+  <!-- Заголовок "Te Amo" -->
+  <h1 id="title" class="hidden">I Love You</h1>
+
+  <!-- Вступительная карточка -->
+  <section id="intro">
+    <div class="intro-card">
+      <h2>Happy<br>Girlfriend Day</h2>
+      <div class="intro-emoji"><img src="img/photo_2026-10-29_21-38-40.jpg" alt=""></div>
+      <p class="intro-date">AUGUST 1</p>
+      <button id="startBtn" class="pill-btn">FOR THE LOVE OF MY LIFE</button>
+    </div>
+  </section>
+
+  <!-- Модальная карточка -->
+  <section id="modal" class="modal hidden">
+    <div class="modal-card">
+      <div class="modal-media" id="modalMedia"></div>
+      <h3 id="modalTitle"></h3>
+      <p id="modalText"></p>
+      <button id="modalClose" class="pill-btn small">BACK</button>
+    </div>
+  </section>
+
+  <!-- Кнопка-сердечко: меняет цвет галактики -->
+  <button id="heartBtn" class="heart-btn hidden" aria-label="Change color">❤</button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
