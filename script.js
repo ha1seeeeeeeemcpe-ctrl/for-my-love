@@ -19,14 +19,14 @@ const CONFIG = {
   // Кликабельные «пузырьки». Чтобы показать свою фотографию, добавь поле
   //   img: 'photo1.jpg'   (положи файл рядом с index.html)
   memories: [
-    { icon: '❤️', title: 'Love of My Life', text: 'The longer we are together, the more I love you.' },
-    { icon: '🐻', title: 'For You', text: 'For you, who make my heart beat in a way no one else can. In every memory and every heartbeat, there you are.' },
-    { icon: '🌹', title: 'Adventures Together', text: 'There is no place in the world I would rather be than by your side, discovering new places.' },
-    { icon: '🎀', title: 'My Favorite Person', text: 'With you to the end of the world and a little bit further.' },
-    { icon: '🌙', title: 'Every Night', text: 'All my favorite stars look like you.' },
-    { icon: '💌', title: 'A Little Letter', text: 'Thank you for existing, for your laughter, and for making my days so much brighter.' },
-    { icon: '✨', title: 'You Are Magic', text: 'With you, even the simplest things become extraordinary.' },
-    { icon: '🧸', title: 'My Home', text: 'Your arms are my favorite place in the whole world.' }
+    { icon: '❤️', img: 'img/photo_1' title: 'Love of My Life', text: 'The longer we are together, the more I love you.' },
+    { icon: '🐻', img: 'img/photo_2' title: 'For You', text: 'For you, who make my heart beat in a way no one else can. In every memory and every heartbeat, there you are.' },
+    { icon: '🌹', img: 'img/photo_3' title: 'Adventures Together', text: 'There is no place in the world I would rather be than by your side, discovering new places.' },
+    { icon: '🎀', img: 'img/photo_4' title: 'My Favorite Person', text: 'With you to the end of the world and a little bit further.' },
+    { icon: '🌙', img: 'img/photo_5' title: 'Every Night', text: 'All my favorite stars look like you.' },
+    { icon: '💌', img: 'img/photo_6' title: 'A Little Letter', text: 'Thank you for existing, for your laughter, and for making my days so much brighter.' },
+    { icon: '✨', img: 'img/photo_7' title: 'You Are Magic', text: 'With you, even the simplest things become extraordinary.' },
+    { icon: '🧸', img: 'img/photo_8' title: 'My Home', text: 'Your arms are my favorite place in the whole world.' }
   ]
 };
 
