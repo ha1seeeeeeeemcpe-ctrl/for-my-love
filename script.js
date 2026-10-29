@@ -11,8 +11,8 @@ if (typeof THREE === 'undefined') {
 const CONFIG = {
   // Фразы, которые летают по спирали вокруг чёрной дыры
   phrases: [
-    'HAPPY GIRLFRIEND DAY ♥', 'I ADORE YOU', 'YOU ARE MAGIC', 'FOR THE LOVE OF MY LIFE',
-    'THE BEST GIRLFRIEND ♥', 'INFINITE LOVE', 'MY FAVORITE PERSON', 'TODAY WE CELEBRATE',
+    'YOU ARE THE BEST ♥', 'I ADORE YOU', 'YOU ARE MAGIC', 'FOR THE LOVE OF MY LIFE',
+    'THE BEST GIRLFRIEND ♥', 'INFINITE LOVE', 'MY FAVORITE PERSON', 'I CHOOSE YOU, ALWAYS ♥',
     'I LOVE YOU SO MUCH', 'YOU ARE MY EVERYTHING', 'MY LIFE ♥', 'MY LOVE'
   ],
 
